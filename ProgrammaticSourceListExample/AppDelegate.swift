@@ -131,7 +131,6 @@ class AppDelegate: NSObject, NSApplicationDelegate, NSOutlineViewDelegate, NSOut
             
             NSLayoutConstraint.activate([
                 textField.leadingAnchor.constraint(equalTo: v.leadingAnchor),
-//                textField.trailingAnchor.constraint(equalTo: v.trailingAnchor),
                 textField.topAnchor.constraint(equalTo: v.topAnchor),
                 textField.bottomAnchor.constraint(equalTo: v.bottomAnchor)
             ])
